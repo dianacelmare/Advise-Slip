@@ -1,0 +1,88 @@
+/* your code */
+:root{
+  --bg-color:#202632;
+  --container-bg-color:#313a49;
+  --font-color:#d1d1d2;
+  --green:#53ffab;
+}
+
+body{
+  background-color: var(--bg-color);
+  font-family: 'Work Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0px;
+}
+
+.container{
+  background-color: var(--container-bg-color);
+  color: var(--font-color);
+  font-weight: 400px;
+  font-size: 30px;
+  line-height: 37px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* gap: 40px; */
+  border-radius: 20px;
+  width: 540px;
+  /*height: 335px; */
+}
+
+.title{
+  display: inline-block;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 2.5px;
+  color: var(--green);  
+}
+
+.title-container{
+  margin-top: 47px;
+  text-align: center;
+}
+
+#result{
+  text-align: center;
+  margin: 25px 36px 40px;
+  min-height: 80px;
+  /* width: 468px;
+  height: 114px */
+}
+
+#icon-dice{
+  background-color: var(--green);
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  position: relative;
+  top: 32.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7.5px;
+}
+
+#icon-dice:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+#mobile-divider{
+  display: none;
+}
+
+@media only screen and (min-width: 320px) and (max-width:480px){
+  .container{
+    width: 396px;
+  }
+  #desktop-divider{
+    display:none;
+  }
+  #mobile-divider{
+    display: block;
+  }
+}
