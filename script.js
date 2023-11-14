@@ -1,4 +1,3 @@
-// your code
 const button = document.getElementById("icon-dice");
 const result = document.getElementById("result");
 const adviceNumber = document.getElementById("adviceNumber")
