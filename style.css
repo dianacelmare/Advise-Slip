@@ -25,7 +25,6 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* gap: 40px; */
   border-radius: 20px;
   width: 540px;
   /*height: 335px; */
@@ -69,7 +68,6 @@ body{
   cursor: pointer;
   transform: scale(1.1);
 }
-
 #mobile-divider{
   display: none;
 }
